@@ -37,7 +37,7 @@ li {
 }
 
 header {
-  background-color: rgba(165, 164, 164, 0.479);
+  background-color: rgba(4, 87, 129, 0.178);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -48,7 +48,6 @@ main{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../img/fondo.jpg);
 }
 
 #logo{
@@ -243,8 +242,8 @@ main{
   margin: 20px 25px;
 }
 
-.fondoGris{
-  background-color: rgba(165, 164, 164, 0.479);
+.fondoLogo{
+  background-color: rgba(4, 87, 129, 0.178);
   border: black 2px solid;
   width: auto;
   height: auto;
@@ -275,19 +274,21 @@ main{
   color: #FFF;
 }
 
-.contacto{
+.fondoContacto{
+  background-image: url(../img/fondoContacto.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255,255,255,0.2);
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
-  padding: 30px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  width: 350px;
+  width: 100%;
 }
 
 .infoContacto{
+  background-color: #FFF;
+  border: black solid 2px;
+  padding: 5px;
   font-size: x-large;
   font-weight: 500;
 }
@@ -303,6 +304,10 @@ main{
   background-color: rgba(4, 87, 129);
   border: black 8px solid;
   border-radius: 50px;
+}
+
+.tituloBolsas{
+  color: #dfdede;
 }
 
 .bolsa{
