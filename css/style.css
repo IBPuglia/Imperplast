@@ -277,12 +277,13 @@ main{
 .fondoContacto{
   background-image: url(../img/fondoContacto.png);
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: center;
-  background-color: rgba(255,255,255,0.2);
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: auto;
 }
 
 .infoContacto{
